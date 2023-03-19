@@ -1,0 +1,60 @@
+.text{
+    padding: 5rem 5rem 0 5rem;
+    text-align: center;
+    font-weight: 400;
+}
+#midpagesection{
+  
+    width: 100%;
+    height: 700px;
+    background-color: transparent;
+}
+.innerbox{
+    width: 100%;
+    height: 650px;
+    border-radius: 0.75rem;
+    background: white;
+    box-shadow: 0rem 0.0rem 2.2rem .3rem rgb(2 16 40 / 16%);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+section{
+    margin-top: -80px;
+}
+.box{
+    width: 100%;
+    height: 550px;
+    background-color:white ;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 6rem;
+
+}
+.box .cards{
+    padding: 2rem;
+    -ms-flex-preferred-size: 29%;
+    flex-basis: 29%;
+    text-align: center;
+    border-radius: 0.75rem;
+    margin: 1.5rem;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.cards{
+    background-color: #0099ff;
+    width: 350px;
+    height: 200px;
+}

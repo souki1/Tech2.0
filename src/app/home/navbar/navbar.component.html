@@ -1,0 +1,22 @@
+
+<nav id="my-first" class="container">
+    <ul>
+        <div class="logo">
+
+            <li class="logotype">
+             <img src="../../assets/logo.png" routerLink="/home" alt="" srcset="">
+           </li>
+        </div>
+      <li class="burger" (click)="toggleMenu()">
+        <i class="material-icons">{{ isMenuOpen ? "close" : "menu" }}</i>
+      </li>
+      <li class="menu" [class.is-open]="isMenuOpen">
+        <a href="#" routerLink="/curriculum" class="menu-item">Curriculum</a>
+        <a  class="menu-item" (click)="about('about-us')">About</a>
+        <a href="#" class="menu-item" >Sign in </a> 
+        <a  class="menu-item"  (click)="contactus('contact-us')">Contact Us</a>
+      </li> 
+
+   
+    </ul>
+</nav>

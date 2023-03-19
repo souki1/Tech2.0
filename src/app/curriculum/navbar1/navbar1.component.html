@@ -1,0 +1,28 @@
+
+<nav id="my-first" class="container">
+  <ul>
+      <div class="logo">
+
+          <li class="logotype">
+           <img src="../../assets/logo.png" routerLink="/home" alt="" srcset="">
+         </li>
+      </div>
+    <li class="burger" (click)="toggleMenu()">
+      <i class="material-icons">{{ isMenuOpen ? "close" : "menu" }}</i>
+    </li>
+    <li class="menu" [class.is-open]="isMenuOpen">
+      <!-- <a href="#"  class="menu-item" >Program</a> -->
+      <!-- <button (click)="gotoPage('program1')"> program1</button> -->
+      <a class="menu-item"  (click)="gotoPage('program1')">program</a>
+      <a class="menu-item"  (click)="gotoFees('fees')" >Fees</a>
+      <a href="#" routerLink="/Hire-from-us"  class="menu-item" >Hire From us</a> 
+      <a   class="menu-item" (click)="gotoContactUs('contact-us')">Contact Us</a>
+    </li> 
+
+    
+  </ul>
+</nav>
+
+<!-- <div class="container" id="">
+<h2>redirect</h2>
+</div> -->

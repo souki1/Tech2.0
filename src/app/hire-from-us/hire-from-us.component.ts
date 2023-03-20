@@ -17,10 +17,7 @@ call(){
   this.c= true
 }
 ngOnInit(): void {
- window.Calendly.initInlineWidget({
-    url: 'https://calendly.com/my-calendar-link',
-    parentElement: document.querySelector('.calendly-inline-widget'),
-  });
+
 }
 }
 declare global { interface Window { Calendly: any; } } 
